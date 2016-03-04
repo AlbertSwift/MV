@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FulladsVC">
+            <connections>
+                <outlet property="btnClose" destination="x3Q-1s-tQs" id="G6F-Oo-arE"/>
+                <outlet property="imgAd" destination="a8d-w7-iKs" id="agZ-Gq-zBb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a8d-w7-iKs">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3Q-1s-tQs">
+                    <rect key="frame" x="274" y="24" width="38" height="38"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="38" id="4FU-mj-uXR"/>
+                        <constraint firstAttribute="width" constant="38" id="ADE-1L-hVk"/>
+                    </constraints>
+                    <state key="normal" image="close.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClose:" destination="-1" eventType="touchUpInside" id="voa-qY-KVE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="a8d-w7-iKs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2he-aw-j9A"/>
+                <constraint firstItem="x3Q-1s-tQs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="4hI-yz-fM7"/>
+                <constraint firstAttribute="bottom" secondItem="a8d-w7-iKs" secondAttribute="bottom" id="8BW-Xh-JDU"/>
+                <constraint firstAttribute="trailing" secondItem="a8d-w7-iKs" secondAttribute="trailing" id="8W3-LS-G6d"/>
+                <constraint firstAttribute="trailing" secondItem="x3Q-1s-tQs" secondAttribute="trailing" constant="8" id="ehd-eJ-NWv"/>
+                <constraint firstItem="a8d-w7-iKs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="tFc-J5-LPc"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close.png" width="38" height="38"/>
+    </resources>
+</document>

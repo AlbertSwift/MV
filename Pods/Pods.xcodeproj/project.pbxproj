@@ -1,0 +1,1396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02AF7CD85989ABE93921DBA0 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 207040A8889623636AE42D40 /* UIProgressView+AFNetworking.m */; };
+		0787CCB371C6C8359D5DEBE9 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EC5C78D93F840718457DC0B7 /* IQTitleBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		08C034626270EC1706461CA0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E35523B49F5953044095C021 /* QuartzCore.framework */; };
+		0A08C3AC7D6E8D91FB2E4A75 /* Pods-MoodVieb-SIAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7FB004082C7D5C4514A325 /* Pods-MoodVieb-SIAlertView-dummy.m */; };
+		0A5DEC6E8DBB0B0AC0E629CF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FCE65D07DC42E0A48352B0 /* AFHTTPSessionManager.m */; };
+		0E020101963082C65F1A4D6C /* MBCircularProgressBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE35D31687B5A355F23D071 /* MBCircularProgressBarView.h */; };
+		1282A06312E82AAC542DD7DC /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE78592C6181C68232B61E66 /* IQBarButtonItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		13112605A41A62D21D7A88AA /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E2A08539F78CA78834154A /* UIActivityIndicatorView+AFNetworking.m */; };
+		1755DCEB1CF249C5B38AEC86 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 82109F464178B78D88F7E46D /* UIAlertView+AFNetworking.h */; };
+		17654FC849B87BFC8A19E5FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23FF75C936963B2A41540A /* Foundation.framework */; };
+		1AF3710532A8D8ADBC04810D /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC00FF5564719228C67C470 /* IQBarButtonItem.h */; };
+		1D59E876F9F58F7E4C84F430 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 006566FE854A1A551318FA1B /* AFHTTPRequestOperationManager.m */; };
+		22AC2DEEC8C7AC24973209DC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DBE43743ED9DAE7DCDEF152 /* MobileCoreServices.framework */; };
+		23232B8405F82A1E627DA458 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 427A98E44F534661EAF693DA /* AFURLRequestSerialization.m */; };
+		2444F2140ACCACB142C632A2 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF452DA9976AAB5E31CDB5F4 /* IQUIViewController+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2561FCDD466F6870B4123D0B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23FF75C936963B2A41540A /* Foundation.framework */; };
+		2BDC3CBFA6E32C2B79E89C9D /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E13757946CB641148310E01B /* AFURLConnectionOperation.h */; };
+		2D765A33645DBD530642C76F /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 496F22A18EED1AF5008CB11A /* AFSecurityPolicy.m */; };
+		2F19865EDCAFAEBFD3CC1B0E /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = C3CD23CC035D86A81AAD2816 /* IQToolbar.h */; };
+		2FA885BB558F8E57D4C4A594 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = E3D11356362DF3E450DEED4E /* AFHTTPRequestOperation.h */; };
+		34ADA7DE36EF6A791C0FAF8C /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D6E99601D98A05E405CC25 /* AFNetworkReachabilityManager.h */; };
+		3565F91B4D59C55986D22EC2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B0026FD4EEC8F70F67CEB /* CoreGraphics.framework */; };
+		37147A8EBE9663C4349FDFCE /* KeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA37F1B22BAEB6C7B34F7402 /* KeyboardManager.h */; };
+		3A3954C4EEFAE8B87D0BD328 /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CF706C5668703BA5EBA3DAA /* IQNSArray+Sort.h */; };
+		3C80ED22EEE091E9A3C6F064 /* Pods-MoodVieb-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 799AC50F739AC72446E5CBAC /* Pods-MoodVieb-MBProgressHUD-dummy.m */; };
+		429C54BD9C2E7743BBA44A98 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D53EA2007C630983AF61C09D /* UIProgressView+AFNetworking.h */; };
+		46CFAE32C0E69D0594DEBD38 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 86ADB6CFECB1AAB251119DA3 /* IQKeyboardManagerConstantsInternal.h */; };
+		48CEE977CD1B89BD43A8F02E /* Pods-MoodVieb-MBCircularProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1751A66E2E31027942DB3C /* Pods-MoodVieb-MBCircularProgressBar-dummy.m */; };
+		4AF01E928B21A186DFB11CA0 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 257E52517C5DAB332B6C8D7D /* IQNSArray+Sort.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		532A9B54A458F005EF75360B /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 48E797ADB305F241B925F07E /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		539FDCDF9A944DC24B1FDFC0 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BA79568D9BB1A69393174C01 /* UIButton+AFNetworking.m */; };
+		56E80B35990F2E18E687F5ED /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DE0E42E251820A6AC862AAEB /* AFNetworkReachabilityManager.m */; };
+		5AD6F560FBD8895C5A24320E /* SIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE4D674F1D7C45739FF0C462 /* SIAlertView.h */; };
+		5EE13AE60E43AEB0A478626C /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5AEB30E800357762DC5860 /* AFURLSessionManager.h */; };
+		5FDD316B533A246D7E9F6505 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EDBA334402724820C4B88F /* MBCircularProgressBarLayer.m */; };
+		60ED52AB3AB8177016E73AF2 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = B668E94C45CA54584CF95239 /* IQUIView+IQKeyboardToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		629EEEC27D3ADCCB45FA0B35 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23FF75C936963B2A41540A /* Foundation.framework */; };
+		6C0D178FE7C85C1D511E7E02 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = B0221BCAAAC9DC456E94E7D7 /* AFURLResponseSerialization.m */; };
+		6DF3114EE44B1BA96E79942A /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B26ADC896CFB2AEDEEF4876 /* IQUITextFieldView+Additions.h */; };
+		6F10CBE86A7B805509BBA412 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 663A83D901A0BB51305A080E /* UIImageView+AFNetworking.h */; };
+		72896D105ECB2BBD7A4DB33E /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9132350A03B1998BA0E09E98 /* IQTextView.h */; };
+		74235D3ABB493BAD05A01FB3 /* SIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C9078CE558EBAE21781BA /* SIAlertView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		778E7010367A790F35C0D4F2 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A53AF89E81A63D067C793DB8 /* UIActivityIndicatorView+AFNetworking.h */; };
+		7AA32BA51C18F1D0121D7798 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AB3E16E0FEF9D47333AABD /* MBProgressHUD.h */; };
+		85D81CB6A2FA435B00FFB3A2 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC64F3D82AAC68A596918B3 /* UIButton+AFNetworking.h */; };
+		8B40AC6416A36EBABCD1C2F5 /* MBCircularProgressBarLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 99BB60ADB971C9A05E5D5473 /* MBCircularProgressBarLayer.h */; };
+		8E4ACD0ADE6EF6935A4A8A3E /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C505F53BB891F87AF2478807 /* AFHTTPRequestOperation.m */; };
+		910CD5AFAF5A0C0AF34F407B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23FF75C936963B2A41540A /* Foundation.framework */; };
+		9213F9AF947F48D05752F4FD /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A74F56901F6876BEE1CC581A /* IQToolbar.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		933CEEF00DE755E528083AAA /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0661EF2256878476FE838355 /* AFNetworkActivityIndicatorManager.h */; };
+		94835B90A01B1EBCF81C947E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20B0026FD4EEC8F70F67CEB /* CoreGraphics.framework */; };
+		9620FB0BB7C750DE2E68EBE6 /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = ED31CB85955F33B9F240B0C4 /* IQKeyboardManagerConstants.h */; };
+		96F8A5E74D70BE273941D0B9 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 19DDE33338238EB271CC1220 /* AFURLConnectionOperation.m */; };
+		97C0C18BF1232167DF79C3B2 /* Pods-MoodVieb-IQKeyboardManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB28D369AEAED83FFB4C68 /* Pods-MoodVieb-IQKeyboardManager-dummy.m */; };
+		9866F74BC34620FE74D3D493 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE68370A4149DC8A1AB20F6 /* IQKeyboardReturnKeyHandler.h */; };
+		9A1C1339A04672AFE2B9345E /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD8F50953A0DA29FB6FFD2D /* IQUIView+IQKeyboardToolbar.h */; };
+		9C25E8E476ADA7DBB5230EFD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85DD5EBCFE4D55DCBF966CEB /* SystemConfiguration.framework */; };
+		9CAD1CF2A920AD50541CE9E2 /* IQUIWindow+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D228BDA0B789B8485F75EFE /* IQUIWindow+Hierarchy.h */; };
+		9D849362F71F1D7F41F56C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23FF75C936963B2A41540A /* Foundation.framework */; };
+		9F7F842C0C29885D76710111 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2492E9A332E1D7E646156A93 /* UIAlertView+AFNetworking.m */; };
+		9FACEC9B404B6F72E2DC45EA /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 04A39EA25BF53275A176A3AA /* IQKeyboardReturnKeyHandler.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A0DE87947307C81B6993D56C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C23FF75C936963B2A41540A /* Foundation.framework */; };
+		A3BB9DAFCE856528A60CC33B /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = A79BE0EB33FFE0F3A171438F /* AFURLRequestSerialization.h */; };
+		ACE0DC6F4034B64ABFC1628E /* Pods-MoodVieb-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FD5172B35FE606B644DD3AB /* Pods-MoodVieb-AFNetworking-dummy.m */; };
+		AD395724000B4D3323D0D752 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8276216107479DDB4837D0C3 /* AFSecurityPolicy.h */; };
+		B375126B782355CD635241A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E9F371830BA8BACFA3B8BA /* Security.framework */; };
+		B557FBB4BB4A82FBBA423A29 /* IQSegmentedNextPrevious.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECA69B4679B083A5324AFA6 /* IQSegmentedNextPrevious.h */; };
+		B5B65BA2A040600A150ECCA7 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DD6408548E5899175D4A08 /* IQTitleBarButtonItem.h */; };
+		B705BC368CA076150B3E30F6 /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F7624AD333F1B3ED5512AE /* IQTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9A560525E14D895F970F6EF /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = E351B5BF1748CE87045C6682 /* UIRefreshControl+AFNetworking.h */; };
+		BB2F35C1A6945ED86CA3EB68 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 044946263CEA082357957EED /* UIRefreshControl+AFNetworking.m */; };
+		BBCDE2DD8B042695F03B87E8 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C440337623BBFDDAB6CB097 /* IQUITextFieldView+Additions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BC66C5748FF57C46F209010B /* IQSegmentedNextPrevious.m in Sources */ = {isa = PBXBuildFile; fileRef = 228DF815EF6EA8E4B3194A7B /* IQSegmentedNextPrevious.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BC8D7FA36492E25A71C03794 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ED61ED722F3C543F202D2DB0 /* AFURLSessionManager.m */; };
+		CECD26C231B4AFA843991A1B /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB8EC19A4A38106E1772B00 /* UIWebView+AFNetworking.m */; };
+		CFC4DDA1C71BBFC34F9CB87F /* Pods-MoodVieb-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF49A2BBE2AB372627216F /* Pods-MoodVieb-dummy.m */; };
+		D0E8DE1C34FD5099D6F55DF9 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0EF1FE6725FF7488E3FFA2 /* AFNetworking.h */; };
+		D69E85048C35448152AC7FD7 /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D9A84202058A8C46F1FD39F /* IQKeyboardManager.h */; };
+		D8801F9EEE3589D3542E0C20 /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2C5DE109019ECCA09BDA17 /* IQUIView+Hierarchy.h */; };
+		D88AD239F1BBC68C7D8BE786 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = FAE7647A1A4D2BDC8C406D64 /* UIKit+AFNetworking.h */; };
+		DA9A9386B06F329939E153AF /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 42CAF7772879B7D8AB8E31E3 /* AFURLResponseSerialization.h */; };
+		DE8349885E44D75074B3CAD9 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EB18FA48FF67A377ACF001 /* MBCircularProgressBarView.m */; };
+		E1E169CFBBC1438561114A4C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E4BCA3CE3C75F2944169F6C /* AFHTTPSessionManager.h */; };
+		E77F36E5CCB51955CABA2378 /* IQUIWindow+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11105DAE940F035AAB337FC1 /* IQUIWindow+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E98E32A39AB78AA7C031623B /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2D282C298B4CBC950DF625 /* AFHTTPRequestOperationManager.h */; };
+		EA3FF96E1DB52004E0FECDAB /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 411BC80B0FD1689FE4585344 /* IQUIViewController+Additions.h */; };
+		F1B7B9C29347664B94996D29 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20DCD23F91827924DB9D8A11 /* IQUIView+Hierarchy.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F4B8A96F9F90EF9A6D193768 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BBF96BD8E6883BB0F6E04 /* AFNetworkActivityIndicatorManager.m */; };
+		F7A19A443893A02DBE3C1C8A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8BD030520D468D6DA26953 /* UIImageView+AFNetworking.m */; };
+		FADE5BB14E33601DF99845F2 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3061421CD8644CA64A2AE782 /* IQKeyboardManager.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FBAFFDB6C06E6F2B5FECB601 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B05FC93330E34D486BF4867 /* UIWebView+AFNetworking.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		31300DB9A77EC8CB54205CA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6581C1B6BA2B29E964BEE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DE168A9E956B92B2A6203A;
+			remoteInfo = "Pods-MoodVieb-MBCircularProgressBar";
+		};
+		4453128C4F8A882EADCF8F90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6581C1B6BA2B29E964BEE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE6BB3C78C52C5EEE4E57840;
+			remoteInfo = "Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar";
+		};
+		788F8FED0CF0974241D6D74E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6581C1B6BA2B29E964BEE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94AB45C6D908EEBC3CCB07B9;
+			remoteInfo = "Pods-MoodVieb-MBProgressHUD";
+		};
+		82C12663FFCCE06128388127 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6581C1B6BA2B29E964BEE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0CF0EA4C2C4A553530A929BB;
+			remoteInfo = "Pods-MoodVieb-AFNetworking";
+		};
+		A267C3E7AB09956E07031448 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6581C1B6BA2B29E964BEE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EE9C6B5F3BC764C43DE46BF;
+			remoteInfo = "Pods-MoodVieb-IQKeyboardManager";
+		};
+		AE86D501C20A59752FF1E52E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6581C1B6BA2B29E964BEE80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30F9437825D4A534C2A1D4D;
+			remoteInfo = "Pods-MoodVieb-SIAlertView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006566FE854A1A551318FA1B /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		044946263CEA082357957EED /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		04A39EA25BF53275A176A3AA /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardReturnKeyHandler.m; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		04E2A08539F78CA78834154A /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		0661EF2256878476FE838355 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		0B26ADC896CFB2AEDEEF4876 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUITextFieldView+Additions.h"; path = "IQKeyBoardManager/Categories/IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		0E5BBF96BD8E6883BB0F6E04 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		11105DAE940F035AAB337FC1 /* IQUIWindow+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIWindow+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.m"; sourceTree = "<group>"; };
+		19DDE33338238EB271CC1220 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		1B05FC93330E34D486BF4867 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		207040A8889623636AE42D40 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		20DCD23F91827924DB9D8A11 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+Hierarchy.m"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		228DF815EF6EA8E4B3194A7B /* IQSegmentedNextPrevious.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQSegmentedNextPrevious.m; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.m; sourceTree = "<group>"; };
+		22EB18FA48FF67A377ACF001 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarView.m; path = Pod/Classes/MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		2492E9A332E1D7E646156A93 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		257E52517C5DAB332B6C8D7D /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQNSArray+Sort.m"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		2CB8EC19A4A38106E1772B00 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		2D228BDA0B789B8485F75EFE /* IQUIWindow+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIWindow+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIWindow+Hierarchy.h"; sourceTree = "<group>"; };
+		2F1751A66E2E31027942DB3C /* Pods-MoodVieb-MBCircularProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodVieb-MBCircularProgressBar-dummy.m"; sourceTree = "<group>"; };
+		3061421CD8644CA64A2AE782 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQKeyboardManager.m; path = IQKeyBoardManager/IQKeyboardManager.m; sourceTree = "<group>"; };
+		31C8174FAABDC35F2EA7DE76 /* libPods-MoodVieb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodVieb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B9D5E6FB276EFCE091131B /* Pods-MoodVieb-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MoodVieb-resources.sh"; sourceTree = "<group>"; };
+		33DEE60EB704D60DFA8DB250 /* Pods-MoodVieb-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		3450FB71150D7A956CC7F93B /* Pods-MoodVieb-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodVieb-environment.h"; sourceTree = "<group>"; };
+		3A2D282C298B4CBC950DF625 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		3AA1DE9284EDD32965B1F3AA /* Pods-MoodVieb-MBCircularProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-MBCircularProgressBar.xcconfig"; sourceTree = "<group>"; };
+		3B0EF1FE6725FF7488E3FFA2 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		3C23FF75C936963B2A41540A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3D9A84202058A8C46F1FD39F /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManager.h; path = IQKeyBoardManager/IQKeyboardManager.h; sourceTree = "<group>"; };
+		3DBE43743ED9DAE7DCDEF152 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		3E4BCA3CE3C75F2944169F6C /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		3EC64F3D82AAC68A596918B3 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		40033574DCD37512BCC13F2F /* Pods-MoodVieb-MBCircularProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodVieb-MBCircularProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		406C9078CE558EBAE21781BA /* SIAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SIAlertView.m; path = SIAlertView/SIAlertView.m; sourceTree = "<group>"; };
+		411BC80B0FD1689FE4585344 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIViewController+Additions.h"; path = "IQKeyBoardManager/Categories/IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		414D966CB0A8597646037D72 /* Pods-MoodVieb-IQKeyboardManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodVieb-IQKeyboardManager-prefix.pch"; sourceTree = "<group>"; };
+		427A98E44F534661EAF693DA /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		42CAF7772879B7D8AB8E31E3 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		45EDBA334402724820C4B88F /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBCircularProgressBarLayer.m; path = Pod/Classes/MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		48E797ADB305F241B925F07E /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		496F22A18EED1AF5008CB11A /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		4CF706C5668703BA5EBA3DAA /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQNSArray+Sort.h"; path = "IQKeyBoardManager/Categories/IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		4FD5172B35FE606B644DD3AB /* Pods-MoodVieb-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodVieb-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		57AB3E16E0FEF9D47333AABD /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		5BFF112A8ABC26B1CC09C5AD /* Pods-MoodVieb-IQKeyboardManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-IQKeyboardManager.xcconfig"; sourceTree = "<group>"; };
+		5CC00FF5564719228C67C470 /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.h; sourceTree = "<group>"; };
+		5ECA69B4679B083A5324AFA6 /* IQSegmentedNextPrevious.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQSegmentedNextPrevious.h; path = IQKeyBoardManager/IQSegmentedNextPrevious/IQSegmentedNextPrevious.h; sourceTree = "<group>"; };
+		5F9254AFF8E5201C805721BC /* Pods-MoodVieb-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodVieb-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		602F06F64E3CD6EE9F6A6268 /* Pods-MoodVieb-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		617CC96156D681EDAD4D2AEC /* Pods-MoodVieb-SIAlertView-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-SIAlertView-Private.xcconfig"; sourceTree = "<group>"; };
+		663A83D901A0BB51305A080E /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		69E9F371830BA8BACFA3B8BA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		6BC2B3BF24451BB0CB9E89CB /* Pods-MoodVieb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb.debug.xcconfig"; sourceTree = "<group>"; };
+		6C440337623BBFDDAB6CB097 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUITextFieldView+Additions.m"; path = "IQKeyBoardManager/Categories/IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		6F4682EB23D06771680F3D58 /* SIAlertView.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SIAlertView.bundle; path = SIAlertView/SIAlertView.bundle; sourceTree = "<group>"; };
+		710584C8E92F7B965C895DEC /* libPods-MoodVieb-MBCircularProgressBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodVieb-MBCircularProgressBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77D6E99601D98A05E405CC25 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		799AC50F739AC72446E5CBAC /* Pods-MoodVieb-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodVieb-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		7CDC854182EC0D4024366CA9 /* libPods-MoodVieb-SIAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodVieb-SIAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECB28D369AEAED83FFB4C68 /* Pods-MoodVieb-IQKeyboardManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodVieb-IQKeyboardManager-dummy.m"; sourceTree = "<group>"; };
+		7EE35D31687B5A355F23D071 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarView.h; path = Pod/Classes/MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		80CCDF1CC141E37836E6674E /* Pods-MoodVieb-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodVieb-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		81F7624AD333F1B3ED5512AE /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTextView.m; path = IQKeyBoardManager/IQTextView/IQTextView.m; sourceTree = "<group>"; };
+		82109F464178B78D88F7E46D /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		823C2F6369C7B63898AA0DB4 /* Pods-MoodVieb-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		8276216107479DDB4837D0C3 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		82DD6408548E5899175D4A08 /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTitleBarButtonItem.h; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		85DD5EBCFE4D55DCBF966CEB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		86ADB6CFECB1AAB251119DA3 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstantsInternal.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		9132350A03B1998BA0E09E98 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQTextView.h; path = IQKeyBoardManager/IQTextView/IQTextView.h; sourceTree = "<group>"; };
+		92FCE65D07DC42E0A48352B0 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		98EF49A2BBE2AB372627216F /* Pods-MoodVieb-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodVieb-dummy.m"; sourceTree = "<group>"; };
+		99BB60ADB971C9A05E5D5473 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBCircularProgressBarLayer.h; path = Pod/Classes/MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		9A8BA95145AA7C8B2C997214 /* Pods-MoodVieb-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MoodVieb-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CE68370A4149DC8A1AB20F6 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardReturnKeyHandler.h; path = IQKeyBoardManager/IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		A20B0026FD4EEC8F70F67CEB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A53AF89E81A63D067C793DB8 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		A74F56901F6876BEE1CC581A /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQToolbar.m; path = IQKeyBoardManager/IQToolbar/IQToolbar.m; sourceTree = "<group>"; };
+		A79BE0EB33FFE0F3A171438F /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		AA52EF93B19BAF5E489879B6 /* Pods-MoodVieb-IQKeyboardManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-IQKeyboardManager-Private.xcconfig"; sourceTree = "<group>"; };
+		ADC015C2A0BB01A77ADC89BD /* Pods-MoodVieb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb.release.xcconfig"; sourceTree = "<group>"; };
+		B0221BCAAAC9DC456E94E7D7 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		B15A56DAB860536181170FFB /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyBoardManager/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		B668E94C45CA54584CF95239 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIView+IQKeyboardToolbar.m"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		BA79568D9BB1A69393174C01 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		BB083DFB48B3A4080B3DB612 /* libPods-MoodVieb-MBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodVieb-MBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDCC3E4FFFA26E8CC63189E /* libPods-MoodVieb-IQKeyboardManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodVieb-IQKeyboardManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC5AEB30E800357762DC5860 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		BC7FB004082C7D5C4514A325 /* Pods-MoodVieb-SIAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MoodVieb-SIAlertView-dummy.m"; sourceTree = "<group>"; };
+		BC8BD030520D468D6DA26953 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		BF452DA9976AAB5E31CDB5F4 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "IQUIViewController+Additions.m"; path = "IQKeyBoardManager/Categories/IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		C3CD23CC035D86A81AAD2816 /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQToolbar.h; path = IQKeyBoardManager/IQToolbar/IQToolbar.h; sourceTree = "<group>"; };
+		C505F53BB891F87AF2478807 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		CA37F1B22BAEB6C7B34F7402 /* KeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardManager.h; path = IQKeyBoardManager/KeyboardManager.h; sourceTree = "<group>"; };
+		CDB38F0DCC73EB20ECA373F8 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE4D674F1D7C45739FF0C462 /* SIAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SIAlertView.h; path = SIAlertView/SIAlertView.h; sourceTree = "<group>"; };
+		D221BFA7F7C5EA8E2C0C7B64 /* Pods-MoodVieb-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		D2990A04D5BFE8AEEBCEDAA4 /* Pods-MoodVieb-MBCircularProgressBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-MBCircularProgressBar-Private.xcconfig"; sourceTree = "<group>"; };
+		D2ED7E5800363CEC02EC5032 /* Pods-MoodVieb-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MoodVieb-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D53EA2007C630983AF61C09D /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		D932272B71701A26D860CF25 /* Pods-MoodVieb-SIAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MoodVieb-SIAlertView.xcconfig"; sourceTree = "<group>"; };
+		DAADF3D68618A925FE801041 /* Pods-MoodVieb-SIAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MoodVieb-SIAlertView-prefix.pch"; sourceTree = "<group>"; };
+		DB2C5DE109019ECCA09BDA17 /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+Hierarchy.h"; path = "IQKeyBoardManager/Categories/IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		DE0E42E251820A6AC862AAEB /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		E12F7614DBA144A5FA3A72FE /* libPods-MoodVieb-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MoodVieb-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13757946CB641148310E01B /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		E351B5BF1748CE87045C6682 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		E35523B49F5953044095C021 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E3D11356362DF3E450DEED4E /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		EC5C78D93F840718457DC0B7 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQTitleBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		ED31CB85955F33B9F240B0C4 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IQKeyboardManagerConstants.h; path = IQKeyBoardManager/Constants/IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		ED61ED722F3C543F202D2DB0 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		EE78592C6181C68232B61E66 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = IQBarButtonItem.m; path = IQKeyBoardManager/IQToolbar/IQBarButtonItem.m; sourceTree = "<group>"; };
+		FAE7647A1A4D2BDC8C406D64 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		FBD8F50953A0DA29FB6FFD2D /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "IQUIView+IQKeyboardToolbar.h"; path = "IQKeyBoardManager/IQToolbar/IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		FEA93587EFBE866098F753F5 /* MBCircularProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBCircularProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11D963CF7EBF20E3DED4B141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E8F4E3FC2793AC8F2E4A74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D849362F71F1D7F41F56C9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FB8BCCA40CFF2A5924B7002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629EEEC27D3ADCCB45FA0B35 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE4CDE989061DD983D6215B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94835B90A01B1EBCF81C947E /* CoreGraphics.framework in Frameworks */,
+				2561FCDD466F6870B4123D0B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD476CDE8D5F1C7FE41C22CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910CD5AFAF5A0C0AF34F407B /* Foundation.framework in Frameworks */,
+				08C034626270EC1706461CA0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C85704579CBC5E32D5AE1589 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3565F91B4D59C55986D22EC2 /* CoreGraphics.framework in Frameworks */,
+				17654FC849B87BFC8A19E5FE /* Foundation.framework in Frameworks */,
+				22AC2DEEC8C7AC24973209DC /* MobileCoreServices.framework in Frameworks */,
+				B375126B782355CD635241A2 /* Security.framework in Frameworks */,
+				9C25E8E476ADA7DBB5230EFD /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF50ACFF47F6E6F22A1B6D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0DE87947307C81B6993D56C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D330EF359BADCF33FC953A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AA1DE9284EDD32965B1F3AA /* Pods-MoodVieb-MBCircularProgressBar.xcconfig */,
+				D2990A04D5BFE8AEEBCEDAA4 /* Pods-MoodVieb-MBCircularProgressBar-Private.xcconfig */,
+				2F1751A66E2E31027942DB3C /* Pods-MoodVieb-MBCircularProgressBar-dummy.m */,
+				40033574DCD37512BCC13F2F /* Pods-MoodVieb-MBCircularProgressBar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MoodVieb-MBCircularProgressBar";
+			sourceTree = "<group>";
+		};
+		0B1FCF6D74BD8503D8CBDD81 /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				E3D11356362DF3E450DEED4E /* AFHTTPRequestOperation.h */,
+				C505F53BB891F87AF2478807 /* AFHTTPRequestOperation.m */,
+				3A2D282C298B4CBC950DF625 /* AFHTTPRequestOperationManager.h */,
+				006566FE854A1A551318FA1B /* AFHTTPRequestOperationManager.m */,
+				E13757946CB641148310E01B /* AFURLConnectionOperation.h */,
+				19DDE33338238EB271CC1220 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		17302F301C526B4E5388A602 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A20B0026FD4EEC8F70F67CEB /* CoreGraphics.framework */,
+				3C23FF75C936963B2A41540A /* Foundation.framework */,
+				3DBE43743ED9DAE7DCDEF152 /* MobileCoreServices.framework */,
+				E35523B49F5953044095C021 /* QuartzCore.framework */,
+				69E9F371830BA8BACFA3B8BA /* Security.framework */,
+				85DD5EBCFE4D55DCBF966CEB /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1873DBCB4390DD816C8BC8AA /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				77D6E99601D98A05E405CC25 /* AFNetworkReachabilityManager.h */,
+				DE0E42E251820A6AC862AAEB /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		1C17AFA50644F00DE8FAD64A /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				8276216107479DDB4837D0C3 /* AFSecurityPolicy.h */,
+				496F22A18EED1AF5008CB11A /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		22A1BAC8BEC6B74CB70C3148 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6F4682EB23D06771680F3D58 /* SIAlertView.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		26FA0700CF1518F99A1D155B /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				A79BE0EB33FFE0F3A171438F /* AFURLRequestSerialization.h */,
+				427A98E44F534661EAF693DA /* AFURLRequestSerialization.m */,
+				42CAF7772879B7D8AB8E31E3 /* AFURLResponseSerialization.h */,
+				B0221BCAAAC9DC456E94E7D7 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		2918A188E14C9983C57393B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B15A56DAB860536181170FFB /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2D2EA6EAEC9C1FD6E3E052CF /* MBCircularProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				99BB60ADB971C9A05E5D5473 /* MBCircularProgressBarLayer.h */,
+				45EDBA334402724820C4B88F /* MBCircularProgressBarLayer.m */,
+				7EE35D31687B5A355F23D071 /* MBCircularProgressBarView.h */,
+				22EB18FA48FF67A377ACF001 /* MBCircularProgressBarView.m */,
+				04D330EF359BADCF33FC953A /* Support Files */,
+			);
+			path = MBCircularProgressBar;
+			sourceTree = "<group>";
+		};
+		2E3B2C6580C7DA121CE775CF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0661EF2256878476FE838355 /* AFNetworkActivityIndicatorManager.h */,
+				0E5BBF96BD8E6883BB0F6E04 /* AFNetworkActivityIndicatorManager.m */,
+				A53AF89E81A63D067C793DB8 /* UIActivityIndicatorView+AFNetworking.h */,
+				04E2A08539F78CA78834154A /* UIActivityIndicatorView+AFNetworking.m */,
+				82109F464178B78D88F7E46D /* UIAlertView+AFNetworking.h */,
+				2492E9A332E1D7E646156A93 /* UIAlertView+AFNetworking.m */,
+				3EC64F3D82AAC68A596918B3 /* UIButton+AFNetworking.h */,
+				BA79568D9BB1A69393174C01 /* UIButton+AFNetworking.m */,
+				663A83D901A0BB51305A080E /* UIImageView+AFNetworking.h */,
+				BC8BD030520D468D6DA26953 /* UIImageView+AFNetworking.m */,
+				FAE7647A1A4D2BDC8C406D64 /* UIKit+AFNetworking.h */,
+				D53EA2007C630983AF61C09D /* UIProgressView+AFNetworking.h */,
+				207040A8889623636AE42D40 /* UIProgressView+AFNetworking.m */,
+				E351B5BF1748CE87045C6682 /* UIRefreshControl+AFNetworking.h */,
+				044946263CEA082357957EED /* UIRefreshControl+AFNetworking.m */,
+				1B05FC93330E34D486BF4867 /* UIWebView+AFNetworking.h */,
+				2CB8EC19A4A38106E1772B00 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		4AD9B2AF9F60B54A082AF6F8 /* Pods-MoodVieb */ = {
+			isa = PBXGroup;
+			children = (
+				D2ED7E5800363CEC02EC5032 /* Pods-MoodVieb-acknowledgements.markdown */,
+				9A8BA95145AA7C8B2C997214 /* Pods-MoodVieb-acknowledgements.plist */,
+				98EF49A2BBE2AB372627216F /* Pods-MoodVieb-dummy.m */,
+				3450FB71150D7A956CC7F93B /* Pods-MoodVieb-environment.h */,
+				32B9D5E6FB276EFCE091131B /* Pods-MoodVieb-resources.sh */,
+				6BC2B3BF24451BB0CB9E89CB /* Pods-MoodVieb.debug.xcconfig */,
+				ADC015C2A0BB01A77ADC89BD /* Pods-MoodVieb.release.xcconfig */,
+			);
+			name = "Pods-MoodVieb";
+			path = "Target Support Files/Pods-MoodVieb";
+			sourceTree = "<group>";
+		};
+		4EE67D65267AA253DABE354B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33DEE60EB704D60DFA8DB250 /* Pods-MoodVieb-MBProgressHUD.xcconfig */,
+				602F06F64E3CD6EE9F6A6268 /* Pods-MoodVieb-MBProgressHUD-Private.xcconfig */,
+				799AC50F739AC72446E5CBAC /* Pods-MoodVieb-MBProgressHUD-dummy.m */,
+				5F9254AFF8E5201C805721BC /* Pods-MoodVieb-MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MoodVieb-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		62CAAD4B4F4343E6A5A0D6BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				823C2F6369C7B63898AA0DB4 /* Pods-MoodVieb-AFNetworking.xcconfig */,
+				D221BFA7F7C5EA8E2C0C7B64 /* Pods-MoodVieb-AFNetworking-Private.xcconfig */,
+				4FD5172B35FE606B644DD3AB /* Pods-MoodVieb-AFNetworking-dummy.m */,
+				80CCDF1CC141E37836E6674E /* Pods-MoodVieb-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MoodVieb-AFNetworking";
+			sourceTree = "<group>";
+		};
+		6538089B5BAF4A5F857B5B72 = {
+			isa = PBXGroup;
+			children = (
+				CDB38F0DCC73EB20ECA373F8 /* Podfile */,
+				89B40A3BC17CF947C9744214 /* Frameworks */,
+				9F5B773D13E0CC7AF1C03CF0 /* Pods */,
+				694F1C175A9ADBCA0F08D3D2 /* Products */,
+				A591DD41537AE0DC79BC18D9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		694F1C175A9ADBCA0F08D3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEA93587EFBE866098F753F5 /* MBCircularProgressBar.bundle */,
+				31C8174FAABDC35F2EA7DE76 /* libPods-MoodVieb.a */,
+				E12F7614DBA144A5FA3A72FE /* libPods-MoodVieb-AFNetworking.a */,
+				BBDCC3E4FFFA26E8CC63189E /* libPods-MoodVieb-IQKeyboardManager.a */,
+				710584C8E92F7B965C895DEC /* libPods-MoodVieb-MBCircularProgressBar.a */,
+				BB083DFB48B3A4080B3DB612 /* libPods-MoodVieb-MBProgressHUD.a */,
+				7CDC854182EC0D4024366CA9 /* libPods-MoodVieb-SIAlertView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C1DD7A744A8593819867702 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				3E4BCA3CE3C75F2944169F6C /* AFHTTPSessionManager.h */,
+				92FCE65D07DC42E0A48352B0 /* AFHTTPSessionManager.m */,
+				BC5AEB30E800357762DC5860 /* AFURLSessionManager.h */,
+				ED61ED722F3C543F202D2DB0 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		89B40A3BC17CF947C9744214 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17302F301C526B4E5388A602 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FAE1C759A2A35619CBC05F2 /* SIAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				CE4D674F1D7C45739FF0C462 /* SIAlertView.h */,
+				406C9078CE558EBAE21781BA /* SIAlertView.m */,
+				22A1BAC8BEC6B74CB70C3148 /* Resources */,
+				D120DAAFE356FE62439EC85A /* Support Files */,
+			);
+			path = SIAlertView;
+			sourceTree = "<group>";
+		};
+		93939A3692D3F5A58E7FB1AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BFF112A8ABC26B1CC09C5AD /* Pods-MoodVieb-IQKeyboardManager.xcconfig */,
+				AA52EF93B19BAF5E489879B6 /* Pods-MoodVieb-IQKeyboardManager-Private.xcconfig */,
+				7ECB28D369AEAED83FFB4C68 /* Pods-MoodVieb-IQKeyboardManager-dummy.m */,
+				414D966CB0A8597646037D72 /* Pods-MoodVieb-IQKeyboardManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MoodVieb-IQKeyboardManager";
+			sourceTree = "<group>";
+		};
+		9F5B773D13E0CC7AF1C03CF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B709476EE04DC404F2C93B71 /* AFNetworking */,
+				B834CDBD42491EB98AE14691 /* IQKeyboardManager */,
+				2D2EA6EAEC9C1FD6E3E052CF /* MBCircularProgressBar */,
+				F58DB1A14B7D08C41CEC3820 /* MBProgressHUD */,
+				8FAE1C759A2A35619CBC05F2 /* SIAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A591DD41537AE0DC79BC18D9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4AD9B2AF9F60B54A082AF6F8 /* Pods-MoodVieb */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B709476EE04DC404F2C93B71 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				3B0EF1FE6725FF7488E3FFA2 /* AFNetworking.h */,
+				0B1FCF6D74BD8503D8CBDD81 /* NSURLConnection */,
+				7C1DD7A744A8593819867702 /* NSURLSession */,
+				1873DBCB4390DD816C8BC8AA /* Reachability */,
+				1C17AFA50644F00DE8FAD64A /* Security */,
+				26FA0700CF1518F99A1D155B /* Serialization */,
+				62CAAD4B4F4343E6A5A0D6BD /* Support Files */,
+				2E3B2C6580C7DA121CE775CF /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		B834CDBD42491EB98AE14691 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				5CC00FF5564719228C67C470 /* IQBarButtonItem.h */,
+				EE78592C6181C68232B61E66 /* IQBarButtonItem.m */,
+				3D9A84202058A8C46F1FD39F /* IQKeyboardManager.h */,
+				3061421CD8644CA64A2AE782 /* IQKeyboardManager.m */,
+				ED31CB85955F33B9F240B0C4 /* IQKeyboardManagerConstants.h */,
+				86ADB6CFECB1AAB251119DA3 /* IQKeyboardManagerConstantsInternal.h */,
+				9CE68370A4149DC8A1AB20F6 /* IQKeyboardReturnKeyHandler.h */,
+				04A39EA25BF53275A176A3AA /* IQKeyboardReturnKeyHandler.m */,
+				4CF706C5668703BA5EBA3DAA /* IQNSArray+Sort.h */,
+				257E52517C5DAB332B6C8D7D /* IQNSArray+Sort.m */,
+				5ECA69B4679B083A5324AFA6 /* IQSegmentedNextPrevious.h */,
+				228DF815EF6EA8E4B3194A7B /* IQSegmentedNextPrevious.m */,
+				9132350A03B1998BA0E09E98 /* IQTextView.h */,
+				81F7624AD333F1B3ED5512AE /* IQTextView.m */,
+				82DD6408548E5899175D4A08 /* IQTitleBarButtonItem.h */,
+				EC5C78D93F840718457DC0B7 /* IQTitleBarButtonItem.m */,
+				C3CD23CC035D86A81AAD2816 /* IQToolbar.h */,
+				A74F56901F6876BEE1CC581A /* IQToolbar.m */,
+				0B26ADC896CFB2AEDEEF4876 /* IQUITextFieldView+Additions.h */,
+				6C440337623BBFDDAB6CB097 /* IQUITextFieldView+Additions.m */,
+				DB2C5DE109019ECCA09BDA17 /* IQUIView+Hierarchy.h */,
+				20DCD23F91827924DB9D8A11 /* IQUIView+Hierarchy.m */,
+				FBD8F50953A0DA29FB6FFD2D /* IQUIView+IQKeyboardToolbar.h */,
+				B668E94C45CA54584CF95239 /* IQUIView+IQKeyboardToolbar.m */,
+				411BC80B0FD1689FE4585344 /* IQUIViewController+Additions.h */,
+				BF452DA9976AAB5E31CDB5F4 /* IQUIViewController+Additions.m */,
+				2D228BDA0B789B8485F75EFE /* IQUIWindow+Hierarchy.h */,
+				11105DAE940F035AAB337FC1 /* IQUIWindow+Hierarchy.m */,
+				CA37F1B22BAEB6C7B34F7402 /* KeyboardManager.h */,
+				2918A188E14C9983C57393B8 /* Resources */,
+				93939A3692D3F5A58E7FB1AD /* Support Files */,
+			);
+			path = IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		D120DAAFE356FE62439EC85A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D932272B71701A26D860CF25 /* Pods-MoodVieb-SIAlertView.xcconfig */,
+				617CC96156D681EDAD4D2AEC /* Pods-MoodVieb-SIAlertView-Private.xcconfig */,
+				BC7FB004082C7D5C4514A325 /* Pods-MoodVieb-SIAlertView-dummy.m */,
+				DAADF3D68618A925FE801041 /* Pods-MoodVieb-SIAlertView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MoodVieb-SIAlertView";
+			sourceTree = "<group>";
+		};
+		F58DB1A14B7D08C41CEC3820 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				57AB3E16E0FEF9D47333AABD /* MBProgressHUD.h */,
+				48E797ADB305F241B925F07E /* MBProgressHUD.m */,
+				4EE67D65267AA253DABE354B /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		431884EDB88427D46D19800E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AF3710532A8D8ADBC04810D /* IQBarButtonItem.h in Headers */,
+				D69E85048C35448152AC7FD7 /* IQKeyboardManager.h in Headers */,
+				9620FB0BB7C750DE2E68EBE6 /* IQKeyboardManagerConstants.h in Headers */,
+				46CFAE32C0E69D0594DEBD38 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				9866F74BC34620FE74D3D493 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				3A3954C4EEFAE8B87D0BD328 /* IQNSArray+Sort.h in Headers */,
+				B557FBB4BB4A82FBBA423A29 /* IQSegmentedNextPrevious.h in Headers */,
+				72896D105ECB2BBD7A4DB33E /* IQTextView.h in Headers */,
+				B5B65BA2A040600A150ECCA7 /* IQTitleBarButtonItem.h in Headers */,
+				2F19865EDCAFAEBFD3CC1B0E /* IQToolbar.h in Headers */,
+				6DF3114EE44B1BA96E79942A /* IQUITextFieldView+Additions.h in Headers */,
+				D8801F9EEE3589D3542E0C20 /* IQUIView+Hierarchy.h in Headers */,
+				9A1C1339A04672AFE2B9345E /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				EA3FF96E1DB52004E0FECDAB /* IQUIViewController+Additions.h in Headers */,
+				9CAD1CF2A920AD50541CE9E2 /* IQUIWindow+Hierarchy.h in Headers */,
+				37147A8EBE9663C4349FDFCE /* KeyboardManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69102162DB039C0FE5721C7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA885BB558F8E57D4C4A594 /* AFHTTPRequestOperation.h in Headers */,
+				E98E32A39AB78AA7C031623B /* AFHTTPRequestOperationManager.h in Headers */,
+				E1E169CFBBC1438561114A4C /* AFHTTPSessionManager.h in Headers */,
+				933CEEF00DE755E528083AAA /* AFNetworkActivityIndicatorManager.h in Headers */,
+				34ADA7DE36EF6A791C0FAF8C /* AFNetworkReachabilityManager.h in Headers */,
+				D0E8DE1C34FD5099D6F55DF9 /* AFNetworking.h in Headers */,
+				AD395724000B4D3323D0D752 /* AFSecurityPolicy.h in Headers */,
+				2BDC3CBFA6E32C2B79E89C9D /* AFURLConnectionOperation.h in Headers */,
+				A3BB9DAFCE856528A60CC33B /* AFURLRequestSerialization.h in Headers */,
+				DA9A9386B06F329939E153AF /* AFURLResponseSerialization.h in Headers */,
+				5EE13AE60E43AEB0A478626C /* AFURLSessionManager.h in Headers */,
+				778E7010367A790F35C0D4F2 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				1755DCEB1CF249C5B38AEC86 /* UIAlertView+AFNetworking.h in Headers */,
+				85D81CB6A2FA435B00FFB3A2 /* UIButton+AFNetworking.h in Headers */,
+				6F10CBE86A7B805509BBA412 /* UIImageView+AFNetworking.h in Headers */,
+				D88AD239F1BBC68C7D8BE786 /* UIKit+AFNetworking.h in Headers */,
+				429C54BD9C2E7743BBA44A98 /* UIProgressView+AFNetworking.h in Headers */,
+				B9A560525E14D895F970F6EF /* UIRefreshControl+AFNetworking.h in Headers */,
+				FBAFFDB6C06E6F2B5FECB601 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5C4ADDD7D82B08BA8D96449 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B40AC6416A36EBABCD1C2F5 /* MBCircularProgressBarLayer.h in Headers */,
+				0E020101963082C65F1A4D6C /* MBCircularProgressBarView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B72283EE8F24BEB4114207F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA32BA51C18F1D0121D7798 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0653EB19B5717FCF0A96AB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AD6F560FBD8895C5A24320E /* SIAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0CF0EA4C2C4A553530A929BB /* Pods-MoodVieb-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85996FBF8B60CF79B5992332 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-AFNetworking" */;
+			buildPhases = (
+				5D5B6141CF0276FD385FB0EA /* Sources */,
+				C85704579CBC5E32D5AE1589 /* Frameworks */,
+				69102162DB039C0FE5721C7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoodVieb-AFNetworking";
+			productName = "Pods-MoodVieb-AFNetworking";
+			productReference = E12F7614DBA144A5FA3A72FE /* libPods-MoodVieb-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		49DE168A9E956B92B2A6203A /* Pods-MoodVieb-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229531CA882B5D6B5045DCE5 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-MBCircularProgressBar" */;
+			buildPhases = (
+				A02B520A5F41C96D802D6F2C /* Sources */,
+				CBF50ACFF47F6E6F22A1B6D6 /* Frameworks */,
+				B5C4ADDD7D82B08BA8D96449 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				185A5A9244BF748BEC7381A9 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoodVieb-MBCircularProgressBar";
+			productName = "Pods-MoodVieb-MBCircularProgressBar";
+			productReference = 710584C8E92F7B965C895DEC /* libPods-MoodVieb-MBCircularProgressBar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8EE9C6B5F3BC764C43DE46BF /* Pods-MoodVieb-IQKeyboardManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74ACFAD542B88B7F2A65F78F /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-IQKeyboardManager" */;
+			buildPhases = (
+				0E43C4AD765EFD7E7C7959AA /* Sources */,
+				7FB8BCCA40CFF2A5924B7002 /* Frameworks */,
+				431884EDB88427D46D19800E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoodVieb-IQKeyboardManager";
+			productName = "Pods-MoodVieb-IQKeyboardManager";
+			productReference = BBDCC3E4FFFA26E8CC63189E /* libPods-MoodVieb-IQKeyboardManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		94AB45C6D908EEBC3CCB07B9 /* Pods-MoodVieb-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 585EDE72269848243A20CED6 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-MBProgressHUD" */;
+			buildPhases = (
+				C2FD95655601BE1223C084A0 /* Sources */,
+				8EE4CDE989061DD983D6215B /* Frameworks */,
+				B72283EE8F24BEB4114207F6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoodVieb-MBProgressHUD";
+			productName = "Pods-MoodVieb-MBProgressHUD";
+			productReference = BB083DFB48B3A4080B3DB612 /* libPods-MoodVieb-MBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A15006415741D9BD1785988C /* Pods-MoodVieb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE43B42B647776B9BE722E1 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb" */;
+			buildPhases = (
+				CA23C37B9D156A25B04BF60B /* Sources */,
+				63E8F4E3FC2793AC8F2E4A74 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F08F7407549E3C8D754B9B6 /* PBXTargetDependency */,
+				2EEF4C1EBACFC2A4606505B8 /* PBXTargetDependency */,
+				69829F6C953A5F11279E44B2 /* PBXTargetDependency */,
+				640A961820615D62BD10FBE2 /* PBXTargetDependency */,
+				A2FEE5863AC211C25269A458 /* PBXTargetDependency */,
+			);
+			name = "Pods-MoodVieb";
+			productName = "Pods-MoodVieb";
+			productReference = 31C8174FAABDC35F2EA7DE76 /* libPods-MoodVieb.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE6BB3C78C52C5EEE4E57840 /* Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49E9FA1A61BD8CB0B7D62C07 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar" */;
+			buildPhases = (
+				7940848552277EBD23DB4EFC /* Sources */,
+				11D963CF7EBF20E3DED4B141 /* Frameworks */,
+				108428359C00E0B6583B7BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar";
+			productName = "Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar";
+			productReference = FEA93587EFBE866098F753F5 /* MBCircularProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F30F9437825D4A534C2A1D4D /* Pods-MoodVieb-SIAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A3ABFB371B757485F01915 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-SIAlertView" */;
+			buildPhases = (
+				F4C76B6D1F224D47C73C10D4 /* Sources */,
+				BD476CDE8D5F1C7FE41C22CA /* Frameworks */,
+				EA0653EB19B5717FCF0A96AB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MoodVieb-SIAlertView";
+			productName = "Pods-MoodVieb-SIAlertView";
+			productReference = 7CDC854182EC0D4024366CA9 /* libPods-MoodVieb-SIAlertView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6581C1B6BA2B29E964BEE80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 6540FB76EA3E883416A07D5B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6538089B5BAF4A5F857B5B72;
+			productRefGroup = 694F1C175A9ADBCA0F08D3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15006415741D9BD1785988C /* Pods-MoodVieb */,
+				0CF0EA4C2C4A553530A929BB /* Pods-MoodVieb-AFNetworking */,
+				8EE9C6B5F3BC764C43DE46BF /* Pods-MoodVieb-IQKeyboardManager */,
+				49DE168A9E956B92B2A6203A /* Pods-MoodVieb-MBCircularProgressBar */,
+				EE6BB3C78C52C5EEE4E57840 /* Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar */,
+				94AB45C6D908EEBC3CCB07B9 /* Pods-MoodVieb-MBProgressHUD */,
+				F30F9437825D4A534C2A1D4D /* Pods-MoodVieb-SIAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		108428359C00E0B6583B7BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E43C4AD765EFD7E7C7959AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1282A06312E82AAC542DD7DC /* IQBarButtonItem.m in Sources */,
+				FADE5BB14E33601DF99845F2 /* IQKeyboardManager.m in Sources */,
+				9FACEC9B404B6F72E2DC45EA /* IQKeyboardReturnKeyHandler.m in Sources */,
+				4AF01E928B21A186DFB11CA0 /* IQNSArray+Sort.m in Sources */,
+				BC66C5748FF57C46F209010B /* IQSegmentedNextPrevious.m in Sources */,
+				B705BC368CA076150B3E30F6 /* IQTextView.m in Sources */,
+				0787CCB371C6C8359D5DEBE9 /* IQTitleBarButtonItem.m in Sources */,
+				9213F9AF947F48D05752F4FD /* IQToolbar.m in Sources */,
+				BBCDE2DD8B042695F03B87E8 /* IQUITextFieldView+Additions.m in Sources */,
+				F1B7B9C29347664B94996D29 /* IQUIView+Hierarchy.m in Sources */,
+				60ED52AB3AB8177016E73AF2 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				2444F2140ACCACB142C632A2 /* IQUIViewController+Additions.m in Sources */,
+				E77F36E5CCB51955CABA2378 /* IQUIWindow+Hierarchy.m in Sources */,
+				97C0C18BF1232167DF79C3B2 /* Pods-MoodVieb-IQKeyboardManager-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5B6141CF0276FD385FB0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E4ACD0ADE6EF6935A4A8A3E /* AFHTTPRequestOperation.m in Sources */,
+				1D59E876F9F58F7E4C84F430 /* AFHTTPRequestOperationManager.m in Sources */,
+				0A5DEC6E8DBB0B0AC0E629CF /* AFHTTPSessionManager.m in Sources */,
+				F4B8A96F9F90EF9A6D193768 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				56E80B35990F2E18E687F5ED /* AFNetworkReachabilityManager.m in Sources */,
+				2D765A33645DBD530642C76F /* AFSecurityPolicy.m in Sources */,
+				96F8A5E74D70BE273941D0B9 /* AFURLConnectionOperation.m in Sources */,
+				23232B8405F82A1E627DA458 /* AFURLRequestSerialization.m in Sources */,
+				6C0D178FE7C85C1D511E7E02 /* AFURLResponseSerialization.m in Sources */,
+				BC8D7FA36492E25A71C03794 /* AFURLSessionManager.m in Sources */,
+				ACE0DC6F4034B64ABFC1628E /* Pods-MoodVieb-AFNetworking-dummy.m in Sources */,
+				13112605A41A62D21D7A88AA /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				9F7F842C0C29885D76710111 /* UIAlertView+AFNetworking.m in Sources */,
+				539FDCDF9A944DC24B1FDFC0 /* UIButton+AFNetworking.m in Sources */,
+				F7A19A443893A02DBE3C1C8A /* UIImageView+AFNetworking.m in Sources */,
+				02AF7CD85989ABE93921DBA0 /* UIProgressView+AFNetworking.m in Sources */,
+				BB2F35C1A6945ED86CA3EB68 /* UIRefreshControl+AFNetworking.m in Sources */,
+				CECD26C231B4AFA843991A1B /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7940848552277EBD23DB4EFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A02B520A5F41C96D802D6F2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FDD316B533A246D7E9F6505 /* MBCircularProgressBarLayer.m in Sources */,
+				DE8349885E44D75074B3CAD9 /* MBCircularProgressBarView.m in Sources */,
+				48CEE977CD1B89BD43A8F02E /* Pods-MoodVieb-MBCircularProgressBar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FD95655601BE1223C084A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				532A9B54A458F005EF75360B /* MBProgressHUD.m in Sources */,
+				3C80ED22EEE091E9A3C6F064 /* Pods-MoodVieb-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA23C37B9D156A25B04BF60B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFC4DDA1C71BBFC34F9CB87F /* Pods-MoodVieb-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C76B6D1F224D47C73C10D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A08C3AC7D6E8D91FB2E4A75 /* Pods-MoodVieb-SIAlertView-dummy.m in Sources */,
+				74235D3ABB493BAD05A01FB3 /* SIAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		185A5A9244BF748BEC7381A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar";
+			target = EE6BB3C78C52C5EEE4E57840 /* Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar */;
+			targetProxy = 4453128C4F8A882EADCF8F90 /* PBXContainerItemProxy */;
+		};
+		2EEF4C1EBACFC2A4606505B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoodVieb-IQKeyboardManager";
+			target = 8EE9C6B5F3BC764C43DE46BF /* Pods-MoodVieb-IQKeyboardManager */;
+			targetProxy = A267C3E7AB09956E07031448 /* PBXContainerItemProxy */;
+		};
+		2F08F7407549E3C8D754B9B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoodVieb-AFNetworking";
+			target = 0CF0EA4C2C4A553530A929BB /* Pods-MoodVieb-AFNetworking */;
+			targetProxy = 82C12663FFCCE06128388127 /* PBXContainerItemProxy */;
+		};
+		640A961820615D62BD10FBE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoodVieb-MBProgressHUD";
+			target = 94AB45C6D908EEBC3CCB07B9 /* Pods-MoodVieb-MBProgressHUD */;
+			targetProxy = 788F8FED0CF0974241D6D74E /* PBXContainerItemProxy */;
+		};
+		69829F6C953A5F11279E44B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoodVieb-MBCircularProgressBar";
+			target = 49DE168A9E956B92B2A6203A /* Pods-MoodVieb-MBCircularProgressBar */;
+			targetProxy = 31300DB9A77EC8CB54205CA4 /* PBXContainerItemProxy */;
+		};
+		A2FEE5863AC211C25269A458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MoodVieb-SIAlertView";
+			target = F30F9437825D4A534C2A1D4D /* Pods-MoodVieb-SIAlertView */;
+			targetProxy = AE86D501C20A59752FF1E52E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		184245CC41EFCEC6530B12FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D221BFA7F7C5EA8E2C0C7B64 /* Pods-MoodVieb-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-AFNetworking/Pods-MoodVieb-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		18954B59DB4733BB48037E71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC2B3BF24451BB0CB9E89CB /* Pods-MoodVieb.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2BCDB2019B4DF4A23324D9DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602F06F64E3CD6EE9F6A6268 /* Pods-MoodVieb-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-MBProgressHUD/Pods-MoodVieb-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		303DC3E9406C8EDF2108B475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4FC5E83F0707D81D5B895B57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2990A04D5BFE8AEEBCEDAA4 /* Pods-MoodVieb-MBCircularProgressBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-MBCircularProgressBar/Pods-MoodVieb-MBCircularProgressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7B53EEA397ED6954A224DCDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617CC96156D681EDAD4D2AEC /* Pods-MoodVieb-SIAlertView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-SIAlertView/Pods-MoodVieb-SIAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7E7C3F07B32812310DC243E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D221BFA7F7C5EA8E2C0C7B64 /* Pods-MoodVieb-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-AFNetworking/Pods-MoodVieb-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		8A4B74076979D3FDDD992C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 602F06F64E3CD6EE9F6A6268 /* Pods-MoodVieb-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-MBProgressHUD/Pods-MoodVieb-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		8D511B518F3A8094D3E9AE57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 617CC96156D681EDAD4D2AEC /* Pods-MoodVieb-SIAlertView-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-SIAlertView/Pods-MoodVieb-SIAlertView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		90F37F99E2A3ACC6EFD5C31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADC015C2A0BB01A77ADC89BD /* Pods-MoodVieb.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A8048B99A4328C28DF78EE1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA52EF93B19BAF5E489879B6 /* Pods-MoodVieb-IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-IQKeyboardManager/Pods-MoodVieb-IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B0C8F6227FD0E7624D7352DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA52EF93B19BAF5E489879B6 /* Pods-MoodVieb-IQKeyboardManager-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-IQKeyboardManager/Pods-MoodVieb-IQKeyboardManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BFDEF126B76A91E0FF760A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2990A04D5BFE8AEEBCEDAA4 /* Pods-MoodVieb-MBCircularProgressBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		E22910F5815F2428D6337A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2990A04D5BFE8AEEBCEDAA4 /* Pods-MoodVieb-MBCircularProgressBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MBCircularProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		E23B8EB64B6557CD508BB944 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2990A04D5BFE8AEEBCEDAA4 /* Pods-MoodVieb-MBCircularProgressBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MoodVieb-MBCircularProgressBar/Pods-MoodVieb-MBCircularProgressBar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E870E74E3C78A076AE5325B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EE43B42B647776B9BE722E1 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18954B59DB4733BB48037E71 /* Debug */,
+				90F37F99E2A3ACC6EFD5C31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229531CA882B5D6B5045DCE5 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E23B8EB64B6557CD508BB944 /* Debug */,
+				4FC5E83F0707D81D5B895B57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49E9FA1A61BD8CB0B7D62C07 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-MBCircularProgressBar-MBCircularProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E22910F5815F2428D6337A7A /* Debug */,
+				BFDEF126B76A91E0FF760A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		585EDE72269848243A20CED6 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCDB2019B4DF4A23324D9DF /* Debug */,
+				8A4B74076979D3FDDD992C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6540FB76EA3E883416A07D5B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303DC3E9406C8EDF2108B475 /* Debug */,
+				E870E74E3C78A076AE5325B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74ACFAD542B88B7F2A65F78F /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-IQKeyboardManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0C8F6227FD0E7624D7352DC /* Debug */,
+				A8048B99A4328C28DF78EE1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85996FBF8B60CF79B5992332 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7C3F07B32812310DC243E3 /* Debug */,
+				184245CC41EFCEC6530B12FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A3ABFB371B757485F01915 /* Build configuration list for PBXNativeTarget "Pods-MoodVieb-SIAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B53EEA397ED6954A224DCDA /* Debug */,
+				8D511B518F3A8094D3E9AE57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6581C1B6BA2B29E964BEE80 /* Project object */;
+}

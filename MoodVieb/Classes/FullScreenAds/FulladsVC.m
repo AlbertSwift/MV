@@ -1,0 +1,52 @@
+//
+//  FulladsVC.m
+//  MoodVibe
+//
+//  Created by code-on on 8/10/15.
+//  Copyright (c) 2015 code-on. All rights reserved.
+//
+
+#import "FulladsVC.h"
+#import "AdShare.h"
+@interface FulladsVC ()
+
+@end
+
+@implementation FulladsVC
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view from its nib.
+    
+    [imgAd setImage:self.adImage];
+    [btnClose setHidden:YES];
+    [self performSelector:@selector(showClosebtn) withObject:nil afterDelay:1];
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+#pragma mark
+#pragma mark - button click
+-(IBAction)btnClose:(id)sender{
+    [self dismissViewControllerAnimated:YES completion:^{
+    }];
+}
+
+-(void)showClosebtn{
+    [btnClose setHidden:NO];
+}
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

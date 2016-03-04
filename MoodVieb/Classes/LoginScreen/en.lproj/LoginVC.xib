@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="OpenSans-Bold_0.ttf">
+            <string>OpenSans-Bold</string>
+        </mutableArray>
+        <mutableArray key="OpenSans-Regular_0.ttf">
+            <string>OpenSans</string>
+            <string>OpenSans</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginVC">
+            <connections>
+                <outlet property="btnLogin" destination="HKq-IJ-11z" id="c0r-QH-qNH"/>
+                <outlet property="imgBg" destination="b7H-N7-hC0" id="VWi-Gq-BfL"/>
+                <outlet property="imgLogo" destination="cY3-Ne-6qK" id="To0-Mw-vou"/>
+                <outlet property="txtActivation" destination="YkJ-YN-E8u" id="vNb-wJ-Ccm"/>
+                <outlet property="txtemail" destination="6mG-3D-5ln" id="YZh-uB-Ydf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="b7H-N7-hC0">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <animations/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="cY3-Ne-6qK">
+                    <rect key="frame" x="22" y="80" width="282" height="139"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="cY3-Ne-6qK" secondAttribute="height" multiplier="282:139" id="5uC-sw-5Gl"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="E-mail" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6mG-3D-5ln">
+                    <rect key="frame" x="31" y="245" width="260" height="45"/>
+                    <animations/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="EbY-l4-6MK"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="next"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="bED-Lc-eud"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YkJ-YN-E8u">
+                    <rect key="frame" x="31" y="298" width="260" height="45"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="FLp-GC-EO0"/>
+                    </constraints>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" secureTextEntry="YES"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="hKS-cx-ieW"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HKq-IJ-11z">
+                    <rect key="frame" x="29" y="376" width="260" height="44"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="ySq-hu-sWc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="22"/>
+                    <state key="normal" title="LOGIN" backgroundImage="btn_login.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="btnLoginClick:" destination="-1" eventType="touchUpInside" id="p1E-pP-QhG"/>
+                    </connections>
+                </button>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="YkJ-YN-E8u" secondAttribute="trailing" constant="29" id="2WI-BW-Df5"/>
+                <constraint firstItem="YkJ-YN-E8u" firstAttribute="top" secondItem="6mG-3D-5ln" secondAttribute="bottom" constant="8" id="55K-dE-J2e"/>
+                <constraint firstItem="HKq-IJ-11z" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="29" id="5XH-hb-aJI"/>
+                <constraint firstAttribute="bottom" secondItem="b7H-N7-hC0" secondAttribute="bottom" id="GcE-Xh-V0U"/>
+                <constraint firstAttribute="trailing" secondItem="cY3-Ne-6qK" secondAttribute="trailing" constant="16" id="NDE-jl-hqh"/>
+                <constraint firstItem="b7H-N7-hC0" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="NyO-rn-XQh"/>
+                <constraint firstItem="HKq-IJ-11z" firstAttribute="top" secondItem="YkJ-YN-E8u" secondAttribute="bottom" constant="33" id="PAN-Zt-XSW"/>
+                <constraint firstAttribute="trailing" secondItem="b7H-N7-hC0" secondAttribute="trailing" id="R7h-4p-4pr"/>
+                <constraint firstItem="cY3-Ne-6qK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="22" id="SXc-sI-mbl"/>
+                <constraint firstItem="YkJ-YN-E8u" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="31" id="Xz0-ft-COZ"/>
+                <constraint firstItem="6mG-3D-5ln" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="31" id="an3-ML-u74"/>
+                <constraint firstItem="b7H-N7-hC0" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="hT3-Dm-fym"/>
+                <constraint firstAttribute="trailing" secondItem="6mG-3D-5ln" secondAttribute="trailing" constant="29" id="kWx-fu-jMy"/>
+                <constraint firstItem="cY3-Ne-6qK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="s94-v9-0vX"/>
+                <constraint firstItem="6mG-3D-5ln" firstAttribute="top" secondItem="cY3-Ne-6qK" secondAttribute="bottom" constant="26" id="x7x-lF-Cy8"/>
+                <constraint firstAttribute="trailing" secondItem="HKq-IJ-11z" secondAttribute="trailing" constant="31" id="yky-jf-tJL"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg.png" width="320" height="480"/>
+        <image name="btn_login.png" width="256" height="41"/>
+        <image name="logo.png" width="282" height="139"/>
+    </resources>
+</document>
